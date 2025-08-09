@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>  <link rel="stylesheet" href="style.css">
+  <title>Киці Годівниці</title>
+</head>
+<body>
+  <header>
+    
+    <img src="https://content.choko.link/avatars/voojkXDpJaZj/Bh85nkZtsHJ6RQF993G8Nf2L3GqAJoTX.jpg?ver1736023748t" class="logo"><h1>Киці Годівниці</h1>
+    <a href="#targetSection" class="l"> Про нас </a>
+     <a href="#targetSectionas" class="l"> Контакти </a>
+<button onclick="showText()" class="my-btn"> Донат </button>
+    <a target="_blank" href="https://choko.link/kutsi_godivnutsi" class="l">Старий сайт </a>
+    <div id="popupText" class="hidden">
+  Карта Приватбанку
+4149  4378  6702  8829
+Белінська Наталія Іванівна<br>
+  <button onclick="hideText()">Закрити</button>
+      <button onclick="window.open('https://next.privat24.ua/money-transfer/card?card=4149437867028829&amount=50&purpose=Підтримка+проєкту', '_blank')">
+  Донат
+</button>
+</div><script src="script.js"></script>
+  </header>
+
+  <main>
+    <div  id="targetSection" class="k">
+      <p>Дружини захисників з селища Нове об’єдналися у волонтерську спільноту. Поки їхні кохані служать, підтримують і їх, і їхніх побратимів. Третій рік готують для армійців каші та голубці. Військові називають господинь "кицями-годівницями". Так з’явилася і назва осередку.</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfGVfOdXekGGSYIOK-JQu3KgBZQebX_M9y1g&s" class="img1"> 
+    </div>
+  <iframe src="https://www.youtube.com/embed/LtWDaqELqiU" allowfullscreen></iframe>
+  
+  </main>
+
+  
+<footer id="targetSectionas">  
+ 
+  <img src="https://content.choko.link/avatars/voojkXDpJaZj/Bh85nkZtsHJ6RQF993G8Nf2L3GqAJoTX.jpg?ver1736023748t" class="logo2">
+  <p>Приєднуйся</p>
+
+  <div class="social-icons">
+    <a href="https://www.tiktok.com/@kutsi_godivnutsi" target="_blank">
+      <img src="https://cdn.pixabay.com/photo/2022/02/09/08/38/technology-7002886_1280.png" alt="TikTok профіль">
+    </a> 
+    <a href="https://www.facebook.com/natalia.belins.ka.zornic.ka" target="_blank">
+      <img src="https://cdn.pixabay.com/photo/2017/02/08/08/38/facebook-2048127_1280.png" alt="Facebook">
+    </a>
+    <a href="viber://chat?number=%2B380669085416">
+      <img src="https://sc.filehippo.net/images/t_app-icon-m/p/038d9aec-96d2-11e6-bf4e-00163ec9f5fa/65136247/viber-logo" alt="Viber"class="m"><span title="0669085416">🔵</span>
+    </a>
+    <a href="https://t.me/Nadiia_pink_shorts">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" alt="Telegram"class="s"><span title="0660241823 @Nadiia_pink_shorts">🔵</span> </a> 
+  </div>
+  <div class="banner">
+  <button class="close-btn">✖</button>
+  <img src="https://i.ibb.co/tMpZ4Ygf/12f01a0f-b2ad-429c-b9f6-97aa22de21e7.png"></div>
+
+</footer>
+</body>
+
+<script>document
+  .querySelector(".close-btn")
+  .addEventListener("click", function () {
+    document.querySelector(".banner").style.display = "none";
+  });
+function showText() {
+  document.getElementById("popupText").classList.remove("hidden");
+}
+
+function hideText() {
+  document.getElementById("popupText").classList.add("hidden");
+}
+</script>
+</html>
